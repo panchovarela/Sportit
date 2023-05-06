@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;700&display=swap');
+
+:root{
+    --primaryColor: #F5F5F5;
+    --secondaryColor: #8B48BF;
+    --thirdColor: #3CDDF3;
+    --fourthColor: #1E1E26;
+    --fifthColor: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: 100%;
+}
+
+
+/***** Header *****/
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 11.66% 64px 11.66%;
+}
+
+header button{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+header i{
+    color: #000000;
+}
+
+header nav ul{
+    display: none;
+    justify-content: space-between;
+    width: 27.56vw;
+}
+
+header nav ul li a{
+    color: #242E52;
+    font-size: 13px;
+}
+
+header nav ul li a:hover{
+    color: #242E5299;
+}
+
+
+/***** Main *****/
+
+button, main div, main section:nth-child(3) article h4::before{
+    color: var(--fifthColor);
+}
+
+button, main section:nth-child(3) article h4::before{
+    background-color: var(--secondaryColor);
+    border: none;
+    border-radius: 50px;
+    padding: 18px 46px 14px 46px;
+}
+
+main div{
+    background-color: var(--thirdColor);
+}
+
+main div:nth-child(2){
+    display: block;
+}
+
+main div h3{
+    font-size: 2.4rem;
+    padding: 40px 20px;
+}
+
+main div p{
+    line-height: 151.1%;
+    padding: 20px 20px 40px 20px;
+}
+
+main section article p{
+    color: #B3B2B7;
+}
+
+main section:nth-child(1){
+    margin: 0 8.3%;
+    text-align: end;
+}
+
+main section:nth-child(1) button{
+    margin: 30px 0 40px;
+}
+
+main section:nth-child(1) h1{
+    color: #232C50;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+    line-height: 114.6%;
+    margin-bottom: 7%;
+}
+
+main section:nth-child(1) img{
+    width: 400px;
+}
+
+main section:nth-child(1) p{
+    line-height: 157.1%;
+}
+
+main section:nth-child(3){
+    margin: 60px 0 80px;
+}
+
+main section:nth-child(3) article{
+    margin-left: 45px;
+}
+
+main section:nth-child(3) article h4{
+    background-color: rgba(139, 72, 191, 0.3);
+    border-radius: 50px 0 0 50px;
+    color: #323851;
+    padding: 15px 0px 10px 5px;
+}
+
+main section:nth-child(3) article h4::before{
+    bottom: 2px;
+    content: "01";
+    padding: 15px 25px;
+    right: 16px;
+}
+
+main section:nth-child(3) article:nth-child(2) h4::before{
+    content: "02";
+}
+
+main section:nth-child(3) article:nth-child(3) h4::before{
+    content: "03";
+}
+
+main section:nth-child(3) article p{
+    line-height: 26px;
+}
+
+main section:nth-child(4), main div:nth-child(5), main section:nth-child(4) div article{
+    align-items: center;
+    flex-direction: column;
+}
+
+main section:nth-child(4), main section:nth-child(4) div, main section:nth-child(4) div article, main div:nth-child(5){
+    display: flex;
+}
+
+main section:nth-child(4) button, main section:nth-child(3) article p{
+    margin: 40px 0;
+}
+
+main section:nth-child(4) div{
+    background-color: var(--fifthColor);
+}
+
+main section:nth-child(4) div article{
+    background-color: #FAFAFA;
+    margin: 0 18px;
+    transition: width 0.5s, height, 0.5s;
+}
+
+main section:nth-child(4) div article:hover{
+    transform: scale(1.3);
+}
+
+main section:nth-child(4) div article:nth-child(1), main section:nth-child(4) div article:nth-child(3), .invisible{
+    display: none;
+}
+
+main section:nth-child(4) div article h4{
+    color: #3F4868;
+}
+
+main section:nth-child(4) div article img{
+    bottom: 35px;
+}
+
+main section:nth-child(4) div article img, main section:nth-child(3) article h4::before{
+    position: relative;
+}
+
+main section:nth-child(4) div article p, main div:nth-child(5) h2{
+    text-align: center;
+}
+
+main section:nth-child(4) h2{
+    color: #242E53;
+    font-size: 2.5rem;
+}
+
+main section:nth-child(4) h2, main section:nth-child(1) img{
+    margin-bottom: 100px;
+}
+
+main div:nth-child(5) button{
+    background-color: #232C50;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    margin: 10px 0 52.5px;
+}
+
+main div:nth-child(5) h2{
+    font-size: 2.55rem;
+    margin: 40px 80px;
+}
+
+
+/***** Footer *****/
+
+footer{
+    background-color: var(--fourthColor);
+    flex-direction: column;
+    height: 535px;
+}
+
+footer, footer a{
+    color: var(--fifthColor);
+}
+
+footer, footer div{
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer, footer div, footer form, footer ul, main div{
+    display: flex;
+}
+
+footer div{
+    width: 95%;
+    margin: 6% 0;
+}
+
+footer div img{
+    width: 28px;
+}
+
+footer div img, footer ul{
+    order: -1;
+}
+
+footer form{
+    justify-content: center;
+    margin-top: 30px;
+    order: -2;
+    width: 100%;
+}
+
+footer form button{
+    background-color: var(--secondaryColor);
+    font-size: smaller;
+    padding: 14px 25px;
+    margin-left: 5px;
+}
+
+footer form button, footer form input{
+    border-radius: 50px;
+    height: 48px;
+}
+
+footer form input{
+    border: none;
+    width: 63%;
+}
+
+footer form input::placeholder{
+    padding-left: 10px;
+}
+
+footer form input, #imagenLogo{
+    margin-right: 5px;
+}
+
+footer p{
+    color: #8C8C94;
+    font-size: 12.5px;
+    margin-bottom: 25px;
+    order: 2;
+}
+
+footer span{
+    order: 1;
+}
+
+footer ul{
+    justify-content: space-between;
+    width: 70%;
+}
+
+footer ul span li{
+    margin: 20px 0 0;
+}
+
+#imagenLogo{
+    width: 25px;
+}
+
+
+/***** Media Queries *****/
+
+/* Desktop */
+
+@media(min-width: 769px){
+
+    footer{
+        height: 247px;
+    }
+
+    footer, main div:nth-child(5){
+        flex-direction: row;
+    }
+
+    footer div{
+        margin: 8% 73% 0 0;
+        width: 12.65%;
+    }
+
+    footer div, footer form, footer p, footer span, footer ul{
+        order: 0;
+    }
+
+    footer form{
+        bottom: 60px;
+        right: 90px;
+        width: 21.8%;
+    }
+
+    footer form, footer span, footer ul, main div:nth-child(5) button, main div:nth-child(5) h2, main section:nth-child(1) h1, main section:nth-child(1) p, main section:nth-child(3) article h4{
+        position: relative;
+    }
+
+    footer p{
+        margin: 11% 0 0 55%;
+    }
+
+    footer span{
+        bottom: 52px;
+        left: 7px;
+    }
+
+    footer ul{
+        top: 44px;
+        width: 27.31%;
+    }
+
+    header{
+        margin: 65px 13.08%;
+    }
+
+    header button:hover{
+        background-color: var(--fifthColor);
+        border: var(--secondaryColor);
+        color: var(--secondaryColor);
+    }
+
+    header i{
+        visibility: hidden;
+    }
+
+    header i, footer div, footer p, main section:nth-child(1) img{
+        position: absolute;
+    }
+
+    header nav ul, main div:nth-child(2), main div:nth-child(5), main section:nth-child(4) div article:nth-child(1), main section:nth-child(4) div article:nth-child(3), main section:nth-child(3){
+        display: flex;
+    }
+
+    main div{
+        background-color: var(--secondaryColor);
+    }
+
+    main div h3{
+        margin: 0 30px 0 200px;
+    }
+
+    main div p{
+        margin: 0 200px 0 30px;
+    }
+
+    main div, main div:nth-child(5){
+        align-items: center;
+    }
+
+    main section:nth-child(1){
+        height: 461.07px;
+        margin: 163.5px 11.81% 95.93px 12.5%;
+    }
+
+    main section:nth-child(1) h1{
+        margin-left: 59%;
+        width: 450px;
+    }
+
+    main section:nth-child(1) img{
+        height: 480px;
+        right: 49.4%;
+        width: 545px;
+    }
+
+    main section:nth-child(1) p{
+        left: 59%;
+        width: 450px;
+    }
+
+    main section:nth-child(3){
+        background-color: #FAFAFA;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 46.5px;
+    }
+
+    main section:nth-child(3) article{
+        margin: 0 74px;
+        padding-bottom: 43px;
+        width: 30.29vw;
+    }
+
+    main section:nth-child(3) article h4{
+        background: none;
+        right: 17%;
+    }
+
+    main section:nth-child(3) article h4::before{
+        right: 23px;
+    }
+
+    main section:nth-child(3) article p{
+        margin: 18px 0;
+    }
+
+    main section:nth-child(4){
+        margin: 97px 0 140px;
+    }
+
+    main section:nth-child(4) button:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+    }
+
+    main section:nth-child(4) div{
+        margin: 0 90px;
+    }
+
+    main section:nth-child(4) div article p{
+        margin: 0;
+    }
+
+    main div:nth-child(5){
+        justify-content: space-between;
+    }
+
+    main div:nth-child(5) button{
+        background-color: var(--fifthColor);
+        color: var(--secondaryColor);
+        right: 210px;
+    }
+
+    main div:nth-child(5) button, main section:nth-child(3), main section:nth-child(4) div article{
+        margin: 0;
+    }
+
+    main div:nth-child(5) h2{
+        left: 165px;
+        margin: 64px 0;
+        text-align: left;
+    }
+
+    .invisible{
+        display: block;
+    }
+
+    #imagenLogo:active{
+        animation: spin 0.4s ease-out;
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
